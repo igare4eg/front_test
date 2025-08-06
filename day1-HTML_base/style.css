@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+h1 {
+    color: #34495e;
+    text-align: center;
+}
+
+h2 {
+    color: #34495e;
+    margin-top: 30px;
+}
+
+p {
+    color: yellow;
+    text-align: left;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 3px solid #2c3e50;
+    max-width: 150px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #2c3e50;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #34495e;
+    color: yellow;
+}
+
+a {
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+    color: yellow;
+    background-color: #34495e;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+a:hover {
+    color: black;
+    background-color: yellow;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between; /* Лого слева, меню справа */
+    align-items: center; /* Выравнивание по вертикали */
+    background-color: #1a1a1a;
+    padding: 15px 10px;
+    border-radius: 10px;
+}
+
+.logo {
+    font-size: 30px;
+    color: yellow;
+}
+
+.header nav a {
+    margin-left: 15px;
+    color: yellow;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header nav a:hover {
+    color: black;
+    background-color: yellow;
+}
